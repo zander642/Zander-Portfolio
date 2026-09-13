@@ -48,6 +48,10 @@ img {
     padding: 20px;
 }
 
+.om-mig-indhold p {
+    max-width: 350px;
+}
+
 #om-mig {
     padding: 10px;
 }
@@ -78,4 +82,15 @@ img {
         justify-content: center;
         gap: 40px;
     }
+}
+
+footer {
+    background-color: #476B6C;
+    color: #D2DDDD;
+    padding: 30px;
+    border-top: 3px solid #1C3839;
+}
+
+footer a {
+    color: #D2DDDD;
 }
