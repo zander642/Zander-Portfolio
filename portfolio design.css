@@ -4,6 +4,12 @@ body {
     color: #173b3d;
     font-family: Arial, sans-serif;
 }
+
+section {
+    padding: 30px 20px;
+    border-bottom: 2px solid #1C3839;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -19,9 +25,19 @@ header {
         margin: 0;
         padding: 0;
     }
+
+nav a {
+    color: #1C3839;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #007D80;
+}
+
 header h1 {
     font-family: "Playfair Display", serif;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: normal;
     margin: 0;
 }
@@ -29,6 +45,12 @@ header h1 {
 h2 {
     font-family: "Playfair Display", serif;
     font-size: 36px;
+    text-align: center;
+}
+
+section ul {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 img {
@@ -52,7 +74,7 @@ img {
 }
 
 .om-mig-indhold p {
-    max-width: 350px;
+    max-width: 400px;
 }
 
 #om-mig {
@@ -83,7 +105,7 @@ img {
     .om-mig-indhold {
         flex-direction: row;
         justify-content: center;
-        gap: 40px;
+        gap: 25px;
     }
 }
 
@@ -96,4 +118,8 @@ footer {
 
 footer a {
     color: #D2DDDD;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #007D80;
 }
