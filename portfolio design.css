@@ -28,6 +28,7 @@ header h1 {
 
 h2 {
     font-family: "Playfair Display", serif;
+    font-size: 36px;
 }
 
 img {
@@ -46,6 +47,8 @@ img {
     align-items: center;
     gap: 20px;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .om-mig-indhold p {
